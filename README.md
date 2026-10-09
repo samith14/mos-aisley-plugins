@@ -46,7 +46,7 @@ Slugs are [endoflife.date](https://endoflife.date) product ids or the product na
 - If the network is down, it uses a cached copy up to a week old, labeled as such,
   or adds nothing. It never blocks or fails a session; the timeout is 5 seconds.
 
-Privacy policy: https://mosaisley.com/privacy.html
+Privacy policy: https://mosaisley.com/privacy
 
 ### Want the full story since your cutoff?
 
