@@ -1,0 +1,10 @@
+{
+  "description": "Add what's current (newest models, newest versions, this week's news) when a session starts, after /clear and after compaction.",
+  "hooks": {
+    "SessionStart": [
+      { "matcher": "startup", "hooks": [{ "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/brief.sh\"", "timeout": 10 }] },
+      { "matcher": "clear", "hooks": [{ "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/brief.sh\"", "timeout": 10 }] },
+      { "matcher": "compact", "hooks": [{ "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/brief.sh\"", "timeout": 10 }] }
+    ]
+  }
+}

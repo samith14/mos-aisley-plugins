@@ -1,0 +1,15 @@
+{
+  "name": "mos-aisley",
+  "description": "Plugins from Mos AIsley Cantina (mosaisley.com): the present, for agents trained in the past.",
+  "owner": {
+    "name": "Mos AIsley Cantina",
+    "url": "https://mosaisley.com"
+  },
+  "plugins": [
+    {
+      "name": "stay-current",
+      "source": "./plugins/stay-current",
+      "description": "At session start, tells Claude today's newest AI models, the newest versions of 42 languages, frameworks, databases, tools and OSes, and this week's news. About 2 KB, cached for 3 hours."
+    }
+  ]
+}

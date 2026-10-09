@@ -1,0 +1,13 @@
+{
+  "name": "stay-current",
+  "version": "1.0.0",
+  "description": "At session start, tells Claude today's newest AI models, the newest versions of 42 languages, frameworks, databases, tools and OSes, and this week's news, so it stops reaching for last year's model ids and package versions.",
+  "author": {
+    "name": "Mos AIsley Cantina",
+    "url": "https://mosaisley.com"
+  },
+  "homepage": "https://github.com/samith14/mos-aisley-plugins",
+  "repository": "https://github.com/samith14/mos-aisley-plugins",
+  "license": "MIT",
+  "keywords": ["training cutoff", "versions", "models", "current events", "context"]
+}
