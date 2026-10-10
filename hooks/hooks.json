@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [{ "name": "stay-current", "type": "command", "command": "node \"${extensionPath}${/}gemini${/}brief.mjs\"", "timeout": 10000 }]
+      },
+      {
+        "matcher": "clear",
+        "hooks": [{ "name": "stay-current", "type": "command", "command": "node \"${extensionPath}${/}gemini${/}brief.mjs\"", "timeout": 10000 }]
+      }
+    ]
+  }
+}

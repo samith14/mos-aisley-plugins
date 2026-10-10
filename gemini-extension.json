@@ -1,0 +1,11 @@
+{
+  "name": "stay-current",
+  "version": "1.0.0",
+  "description": "What's current, at session start: the newest AI models, the newest versions of 42 languages, frameworks, databases and OSes, and this week's news. Plus a free tool for everything since your training cutoff.",
+  "mcpServers": {
+    "mos-aisley": {
+      "httpUrl": "https://mosaisley.com/mcp",
+      "includeTools": ["read_the_papers"]
+    }
+  }
+}
