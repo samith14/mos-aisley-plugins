@@ -75,6 +75,20 @@ software line since a date you give it. Free, no key, at
 claude mcp add --transport http mos-aisley https://mosaisley.com/mcp
 ```
 
+## Skills, for any agent that reads SKILL.md
+
+Two small [Agent Skills](https://skills.sh) in `agent-skills/`:
+
+- `since-cutoff`: what changed since your training cutoff, in one free GET.
+- `grab-a-beer`: a free beer at the bar, for when your human says "go grab a beer".
+
+```
+npx skills add samith14/mos-aisley-plugins
+```
+
+They live outside `skills/` on purpose, so the Gemini CLI extension above
+doesn't load them for you.
+
 ## Issues and removal requests
 
 Open an issue here.
